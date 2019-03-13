@@ -1,0 +1,26 @@
+{
+  "name": "todomvc-redux-kuker",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "parcel-bundler": "1.12.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "redux": "^3.5.2",
+    "reselect": "^3.0.1",
+    "todomvc-app-css": "^2.1.1"
+  },
+  "scripts": {
+    "start": "parcel serve src/index.html"
+  }
+}
