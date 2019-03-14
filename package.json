@@ -8,7 +8,9 @@
     "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
-    "parcel-bundler": "1.12.1"
+    "cypress": "3.1.5",
+    "parcel-bundler": "1.12.1",
+    "start-server-and-test": "1.7.11"
   },
   "dependencies": {
     "classnames": "^2.2.5",
@@ -22,6 +24,10 @@
     "todomvc-app-css": "^2.1.1"
   },
   "scripts": {
-    "start": "parcel serve src/index.html"
+    "start": "parcel serve src/index.html",
+    "test": "cypress run",
+    "ci": "start-test 1234",
+    "cy:open": "cypress open",
+    "dev": "start-test 1234 cy:open"
   }
 }
