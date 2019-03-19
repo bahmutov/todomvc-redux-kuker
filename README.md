@@ -1,4 +1,4 @@
-# todomvc-redux-kuker
+# todomvc-redux-kuker [![renovate-app badge][renovate-badge]][renovate-app]
 
 Example application has been forked from [reduxjs/redux](https://github.com/reduxjs/redux/tree/master/examples/todomvc) and stored in `src` folder.
 
@@ -31,3 +31,6 @@ Different specs in [cypress/integration](cypress/integration) folder show differ
 - [Kuker DevTools extension][kuker-extension]
 
 [kuker-extension]: https://chrome.google.com/webstore/detail/kuker/glgnienmpgmfpkigngkmieconbnkmlcn
+
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/
