@@ -1,4 +1,4 @@
-# todomvc-redux-kuker [![renovate-app badge][renovate-badge]][renovate-app]
+# todomvc-redux-kuker [![renovate-app badge][renovate-badge]][renovate-app] [![CircleCI](https://circleci.com/gh/bahmutov/todomvc-redux-kuker.svg?style=svg)](https://circleci.com/gh/bahmutov/todomvc-redux-kuker)
 
 Example application has been forked from [reduxjs/redux](https://github.com/reduxjs/redux/tree/master/examples/todomvc) and stored in `src` folder.
 
