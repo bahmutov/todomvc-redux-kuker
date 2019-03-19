@@ -1,0 +1,16 @@
+{
+  "action": {
+    "type": "ADD_TODO",
+    "text": "learn testing"
+  },
+  "state": {
+    "todos": [
+      {
+        "completed": false,
+        "id": 0,
+        "text": "learn testing"
+      }
+    ],
+    "visibilityFilter": "show_all"
+  }
+}

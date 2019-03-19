@@ -12,13 +12,14 @@ context('TodoMVC', () => {
     cy.get('.todo-list li').should('have.length', 2)
   })
 
-  it.only('clears completed', () => {
+  it('clears completed', () => {
     cy.get('.new-todo')
       .type('first{enter}')
       .type('second{enter}')
       .type('third{enter}')
       .type('fourth{enter}')
     cy.get('.todo-list li').should('have.length', 4)
+    // now mark 2 items completed and clear them
     cy.contains('li', 'second')
       .find('.toggle')
       .check()

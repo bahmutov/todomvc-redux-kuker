@@ -1,0 +1,21 @@
+{
+  "action": {
+    "type": "ADD_TODO",
+    "text": "be cool"
+  },
+  "state": {
+    "todos": [
+      {
+        "completed": false,
+        "id": 0,
+        "text": "learn testing"
+      },
+      {
+        "completed": false,
+        "id": 1,
+        "text": "be cool"
+      }
+    ],
+    "visibilityFilter": "show_all"
+  }
+}
