@@ -22,7 +22,7 @@
     "react-redux": "5.1.1",
     "redux": "3.7.2",
     "reselect": "3.0.1",
-    "todomvc-app-css": "2.2.0"
+    "todomvc-app-css": "2.3.0"
   },
   "scripts": {
     "start": "parcel serve src/index.html",
