@@ -11,7 +11,7 @@
     "cypress": "3.8.3",
     "cypress-watch-and-reload": "1.10.5",
     "parcel-bundler": "1.12.5",
-    "start-server-and-test": "1.15.3"
+    "start-server-and-test": "1.15.4"
   },
   "dependencies": {
     "classnames": "2.3.2",
