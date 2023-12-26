@@ -14,7 +14,7 @@
     "start-server-and-test": "1.15.5"
   },
   "dependencies": {
-    "classnames": "2.3.3",
+    "classnames": "2.4.0",
     "kuker-emitters": "6.7.4",
     "prop-types": "15.8.1",
     "react": "16.14.0",
